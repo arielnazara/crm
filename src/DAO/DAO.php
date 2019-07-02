@@ -10,6 +10,7 @@ abstract class DAO {
 
     public function __construct(Connection $db) {
         $this->db = $db;
+//nothing
     }
 
     protected function getDb() {
